@@ -16,8 +16,9 @@ public class LoginTest {
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 		loginPage.insertUsername("demo@techfios.com");
 		loginPage.insertPassword("abc123");
-		loginPage.clickSignInButton();}
-	
+		loginPage.clickSignInButton();
+		}
+
 	
 	
 }

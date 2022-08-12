@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserFactory {
-	 static WebDriver driver;
+	  static WebDriver driver;
 	
 	public static WebDriver init() {
 		System.setProperty("webdriver.chrome.driver", "Driver(s)\\chromedriver.exe");
